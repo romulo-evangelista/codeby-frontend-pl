@@ -1,0 +1,35 @@
+section#product-item {
+  display: flex;
+  align-items: center;
+}
+
+section#product-item + section#product-item {
+  padding-top: 1rem;
+}
+
+section#product-item img {
+  width: 5rem;
+  height: 5rem;
+  border: 1px solid #ccc;
+}
+
+section#product-item #info {
+  padding-left: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+section#product-item #info h1 {
+  font-size: 0.8rem;
+  font-weight: 900;
+  padding-bottom: 0.2rem;
+}
+
+section#product-item #info span#price {
+  font-size: 0.6rem;
+}
+
+section#product-item #info span#selling-price {
+  font-size: 0.7rem;
+  font-weight: 600;
+}

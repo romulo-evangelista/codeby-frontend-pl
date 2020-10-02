@@ -1,0 +1,72 @@
+section#cart {
+  padding: 1rem;
+  padding-bottom: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+section#cart header {
+  width: 100vw;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid #ccc;
+}
+
+section#cart header h1 {
+  font-size: 1rem;
+  text-align: center;
+}
+
+section#cart article {
+  width: 100vw;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+section#cart article #product-list {
+  padding: 1rem;
+}
+
+section#cart article #total {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  border-bottom: 1px solid #ccc;
+  border-top: 1px solid #ccc;
+}
+
+section#cart article #total #price {
+  font-weight: 900;
+  display: flex;
+  justify-content: space-between;
+}
+
+section#cart article #total #frete-gratis {
+  margin: 0 auto;
+  margin-top: 1rem;
+  width: 17rem;
+  font-size: 0.8rem;
+  font-weight: 600;
+  background-color: #98fb98;
+  color: #006400;
+  padding: 0.5rem;
+  border-radius: 10rem;
+}
+
+section#cart footer {
+  padding-top: 1rem;
+}
+
+section#cart footer button {
+  width: 18rem;
+  height: 2.8rem;
+  font-weight: 800;
+  background-color: #3380cc;
+  border: none;
+  color: white;
+  text-decoration: none;
+  border-radius: 0.5rem;
+}
